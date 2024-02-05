@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link href="stylesheet" href="style.css">
+</head>
+<!-- DOCTYPE HTML adalah deklarasi versi HTML yang harus ditempatkan di bagian atas dokumen HTML. Deklarasi ini memberitahu browser tentang versi HTML yang digunakan pada dokumen tersebut. Deklarasi ini sangat penting karena setiap versi HTML memiliki cara penulisan, fitur, dan rendering yang berbeda-beda. Dengan menuliskan deklarasi DOCTYPE, browser dapat mengetahui versi HTML yang digunakan dan menentukan teknik rendering yang tepat. Deklarasi DOCTYPE HTML juga merupakan bagian penting dari standar teknologi web yang ditetapkan oleh World Wide Web Consortium (W3C) -->
+<body>
+    <section>
+        <h1>To-do List</h1>
+        <form onsubmit="onFormSubmit(event)">
+            <input type="text">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="List"></section>
+    <script src="main.js"></script>
+</body>
+</html>    
